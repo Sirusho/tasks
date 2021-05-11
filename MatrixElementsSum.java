@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class ArrayElementsSum {
+public class MatrixElementsSum {
     public static void main(String[] args) {
         int arr[][]=new int[10][10];
         int sum=0;
