@@ -1,12 +1,5 @@
-package coffee_machine;
+package coffee_machine.models;
 
 public class Chocolate extends Drink {
-  /*  public Chocolate(int sugarQuantity) {
 
-        this.sugarQuantity = sugarQuantity;
-    }
-
-    public Chocolate() {
-    }
-   */
 }

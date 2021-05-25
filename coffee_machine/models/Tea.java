@@ -1,12 +1,5 @@
-package coffee_machine;
+package coffee_machine.models;
 
 public class Tea extends Drink {
-    /*public Tea(int sugarQuantity) {
-        super(sugarQuantity);
-    }
 
-    public Tea() {
-    }
-
-     */
 }

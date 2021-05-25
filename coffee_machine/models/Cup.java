@@ -1,11 +1,13 @@
-package coffee_machine;
+package coffee_machine.models;
 
 public class Cup {
-
     private Drink drink;
-   /* Stick stick;
-    Sugar sugar;
-    Drink drink=new Drink();
+    private Stick stick;
+    private Sugar[] sugars;
+
+    public Drink getDrink() {
+        return drink;
+    }
 
     public void setDrink(Drink drink) {
         this.drink = drink;
@@ -19,20 +21,11 @@ public class Cup {
         this.stick = stick;
     }
 
-    public Sugar getSugar() {
-        return sugar;
+    public Sugar[] getSugars() {
+        return sugars;
     }
 
-    public void setSugar(Sugar sugar) {
-        this.sugar = sugar;
+    public void setSugars(Sugar[] sugars) {
+        this.sugars = sugars;
     }
-
-    public Cup(String string) {
-
-    }
-    public Cup(){
-
-    }
-
-    */
 }

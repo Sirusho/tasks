@@ -1,13 +1,15 @@
-package coffee_machine;
+package coffee_machine.util;
+
+import coffee_machine.models.DrinkType;
 
 public class CommandConverter {
     public static Command convert(String input){
 
         Command command = new Command();
-           String split[]=input.split(":");
+        String split[]=input.split(":");
 
         extractDrinkType(command, split);
-        command.setSugarQunatity(Integer.parseInt(split[1]));
+        command.setSugarQuantity(Integer.parseInt(split[1]));
         return command;
 
     }

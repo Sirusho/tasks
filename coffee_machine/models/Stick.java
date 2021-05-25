@@ -1,5 +1,6 @@
-package coffee_machine;
+package coffee_machine.models;
 
 public class Stick {
+
 
 }
