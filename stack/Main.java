@@ -1,4 +1,4 @@
-package warrior;
+package stack;
 
 public class Main {
 }

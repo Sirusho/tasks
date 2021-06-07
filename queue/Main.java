@@ -1,4 +1,4 @@
-package warrior;
+package queue;
 
 public class Main {
 }

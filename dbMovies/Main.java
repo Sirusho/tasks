@@ -1,4 +1,4 @@
-package warrior;
+package dbMovies;
 
 public class Main {
 }
